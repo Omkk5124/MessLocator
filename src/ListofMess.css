@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+.headMess{
+    display: flex;
+    width: 100vw;
+    height: 800px;
+    margin-top: -83px;
+}
+
+.headMess img{
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+}
+
+.headMess h1{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-10deg);
+    font-size: 150px;
+    margin-top: 150px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.headMess p{
+    position: absolute;
+    font-size: 45px;
+   margin-left: 500px;
+   margin-top: 380px;
+   color: rgb(217, 253, 133);
+
+}
+
+.menu{
+    width: 100vw;
+    height: 700px;
+    background-color: rgb(228, 228, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flag{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 1100px;
+    z-index: 1;
+}
+
+.cont1{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-right: 400px;
+}
+.cont1 img{
+    height: 470px;
+    width: 380px;
+}
+
+.cont2{
+    margin-top: -430px;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black ;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+    height: 300px;
+    width: 600px;
+    font-size: 20px;
+    color: green;
+}
+
+.cont2 h2{
+    margin-top: -40px;
+    /* margin-bottom: 100px; */
+    font-size: 50px;
+    color: green;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-10deg);
+}
+
+
+/* rates */
+.Rate{
+    height: 800px;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    float: left;
+}
+
+.Rate h2{
+    font-size: 50px;
+    color: green;
+    font-family: 'Dancing Script', cursive;
+    transform: rotate(-10deg);
+    margin-top: 50px;
+}
+
+.Rate img{
+    height: 800px;
+    width: 100vw;
+    position: absolute;
+    
+
+}
+
+#prize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: green;
+    position: absolute;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin-top: 100px;
+    margin-left: 20px;
+}
+/* footer */
+
+.fa-facebook {
+    color: #3b5998;
+
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: grey;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube,
+.fa-globe,
+.fa-android,
+.fa-globe,
+.fa-sticky-note,
+.fa-phone {
+    font-size: 1.8 rem;
+    margin: 2px;
+}
+
+footer {
+    background-color: #000000;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    padding-bottom: 2px;
+}
+
+
+
+footer li {
+    list-style: none;
+    padding: 5px;
+
+
+}
+
+footer a {
+    color: #d5d5d5;
+    margin: 3px auto;
+    font-size: 18px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer h5 {
+    color: #d5d5d5;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+}

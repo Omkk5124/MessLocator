@@ -1,0 +1,153 @@
+
+#Body{
+   width: 100vw;
+   height: max-content;
+   background-color: #0eff00;
+   position: absolute;
+}
+.messcard{
+    display: flex;
+    width: 1400px;
+    height: 230px;
+    margin: 30px 0px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px black;
+}
+
+.messcard button{
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    transition: all 1s ease-in-out;
+    float: right;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgb(62, 0, 121);
+    color: aliceblue;
+  }
+
+  .messposter{
+      width: 250px;
+      height: 230px;
+      display: inline-block;
+      background-color: rgb(62, 0, 121);
+      border-top-left-radius: 15px; 
+      border-bottom-left-radius: 15px;
+       
+  }
+
+  .messposter img{
+    width: 250px;
+    height: 230px;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    padding: 4px;
+  }
+
+  .messTitle h1{
+      color: black;
+  }
+
+  .messTitle{
+      display:inline-block;
+      background-color: aliceblue;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-top-right-radius: 15px; 
+      border-bottom-right-radius: 15px;  
+  }
+
+  h3{
+      text-align: center;
+      font-size: 50px;
+      font-weight: 1000;
+      position: relative;
+      color: azure;
+      padding-top: 10px;
+  }
+
+
+#header{
+    background-color: black;
+    height: 130px;
+}
+
+  /* form css */
+
+  #Form{
+    margin:70px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    background: none;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgb(235, 235, 235);
+    border-left: 1px solid rgb(235, 235, 235);
+    /* position: absolute; */
+    top: 0;
+    /* position: fixed; */
+  }
+
+ #Regbut{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    transition: all 1s ease-in-out;
+    float: right;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgb(62, 0, 121);
+    color: aliceblue;
+ } 
+
+ #Submitbut{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    transition: all 1s ease-in-out;
+}
+#Submitbut:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,#0080ff, #0eff00);
+    
+}
+
+.messcards{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 80px;
+}
+
+#Card{
+    margin: 30px;
+}
+
+#Card a{
+    text-decoration: none;
+}
+
+.search{
+    width: 600px;
+    margin: 30px;
+    position: absolute;
+    margin-left: 440px;
+}

@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -----------------Form css------------------- */
+.Maindiv::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(50deg,transparent 56%,#fd00ff 56%,#1537dd 91%);
+    top: 0;
+}
+
+.Maindiv{
+    position: relative;
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #28e5ad;
+    flex-wrap: wrap;
+}
+
+form::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0.7;
+}
+form{
+    
+    margin:70px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    background: none;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgb(235, 235, 235);
+    border-left: 1px solid rgb(235, 235, 235);
+}
+
+form input{
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 80%;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    background:transparent;
+    outline: none;
+    font-size: 20px;
+    font-weight:bolder;
+    border-bottom:1px solid #000000; 
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.Submit{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    transition: all 1s ease-in-out;
+    margin-left: 130px;
+}
+.Submit:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,#0080ff, #0eff00);
+    
+}
+
+.but{
+    position:relative;
+    border-radius: 100px;
+    margin: auto;
+    top:50px;
+    height: 40px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 7px rgb(0 0 0);
+    bottom: 50px;
+}
+
+.but button{
+    display: inline;
+    border-radius: 100px;
+    height: 40px;
+    width:160px;
+    border: none;
+    outline: none;
+    top:10%;
+    background: transparent;
+    position: relative;
+}
+
+.inpfield{
+    margin-top: 100px;
+}
+.butBefore{
+    top: 0;
+    left: 0;
+    width:160px;
+    height:40px ;
+    border-radius: 100px;
+    position: absolute;
+    background: linear-gradient(to right,#0080ff, #0eff00);
+    transition: all 0.5s;
+}
+
+/* ---------------------------Home page---------------------------------- */
+
+.home::before{
+    content: "";
+    background-image: url("./pic/271754.png");
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+
+
+
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 325%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    float: right;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+#headMess{
+    font-size: 100px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+}
+
+.welcome{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Feature::before{
+    content: "";
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(130deg,#0bff1f 20%,#32ff1f 91%);
+    top: 0;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    left:0;
+    clip-path: circle(50% at 16% 11%);
+    /* overflow: hidden; */
+}
+
+.Feature{
+    z-index: -1;
+    position: relative;
+    background-color: #ffffff;
+    height: max-content;
+    width: 100%;
+    padding: 20px;
+}
+.cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+
+.Feature h2{
+    font-family: 'Fredoka One', cursive;
+    margin: 10px;
+    position: relative;
+}
+
+.card img{
+    height: 280px;
+    width: 280px;
+    margin: auto;
+}
+
+
+/* .card:hover{
+    margin: 10px;
+    cursor: pointer;
+    transform: translate(-5px,-5px);
+    box-shadow: 2px 4px 10px rgb(205, 252, 253) ;
+} */
+
+
+.footer::before{
+    content: "";
+    height: 60px;
+    width: 100vw;
+    background: linear-gradient(130deg,rgb(249, 250, 249) 50%,#000000 60%,#000000 100%);
+    position: absolute;
+    z-index: -1;
+}
+.footer{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact img{
+    height: 30px;
+    width: 30px;
+}
+
+.contact:hover{
+    margin: 10px;
+    cursor: pointer;
+    transform: translate(-2px,-2px);
+    box-shadow: 2px 4px 10px rgb(205, 252, 253) ;
+}
+
+@media (max-width: 560px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin:30px 0px;
+        height: max-content;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    .footer::before{
+        height: 70%;
+        width: 100vw;
+    }
+    /* .Feature::before{
+        height: 510%;
+    } */
+} 
+
+
+.featureCard{
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+
+}
+
+h2 a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+h2{
+    position: relative;
+    margin: 5px;
+    text-align: center;
+}
